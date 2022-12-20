@@ -1,4 +1,5 @@
-i = 1
+i = input("Введіть кількість: ")
+h = input("прізвище: ")
 while i < 11:
-  print(i, "Hello Loops")
+  print(i, h)
   i += 1
