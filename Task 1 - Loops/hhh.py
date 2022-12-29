@@ -1,5 +1,7 @@
-i = input("Введіть кількість: ")
-h = input("прізвище: ")
-while i < 11:
-  print(i, h)
-  i += 1
+quantity = input("Введіть кількість: ")
+surname = input("прізвище: ")
+intquantity = int(quantity)
+score = 1
+while score <= intquantity:
+  print(score, surname)
+  score += 1
